@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.renjin.cran</groupId>
   <artifactId>testthat</artifactId>
-  <version>0.15.1-renjin-1</version>
+  <version>1.0.2.9000</version>
 
   <distributionManagement>
     <repository>
