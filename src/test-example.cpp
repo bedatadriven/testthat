@@ -7,6 +7,8 @@
  * `LinkingTo: testthat` within your DESCRIPTION file.
  */
 
+#ifndef RENJIN
+
 // All test files should include the <testthat.h>
 // header file.
 #include <testthat.h>
@@ -33,3 +35,5 @@ context("Sample unit tests") {
   }
 
 }
+
+#endif
