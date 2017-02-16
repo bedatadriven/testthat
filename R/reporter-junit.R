@@ -116,7 +116,7 @@ JunitReporter <- R6::R6Class("JunitReporter", inherit = Reporter,
     },
 
     end_reporter = function() {
-      output_file <- getOption("testthat.junit_output_file")
+      output_file <- getOption("testthat.junit.output_file")
 
       if (!is.null(output_file)) {
         xml2::write_xml(self$doc, output_file, format = TRUE)
