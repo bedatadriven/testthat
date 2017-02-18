@@ -1,12 +1,8 @@
-
 #include <testthat.h>
 
 #include <string>
 #include <stdexcept>
 #include <exception>
-
-
-#ifndef RENJIN
 
 namespace {
 
@@ -62,5 +58,3 @@ context("Exception handling") {
 
   }
 }
-
-#endif
