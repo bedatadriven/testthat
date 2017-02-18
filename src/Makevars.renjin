@@ -1,0 +1,5 @@
+# Renjin chokes on the C++ testing library,
+# but we need the C code below
+OBJECTS = reassign.c label.c
+
+PKG_CPPFLAGS=-I../inst/include -DCOMPILING_TESTTHAT

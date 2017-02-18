@@ -7,7 +7,7 @@
   <version>1.0.2.9000</version>
 
   <properties>
-    <renjin.version>0.8.2328</renjin.version>
+    <renjin.version>0.8.2330</renjin.version>
   </properties>
 
   <distributionManagement>
@@ -112,7 +112,7 @@
     <dependency>
       <groupId>org.renjin.cran</groupId>
       <artifactId>xml2</artifactId>
-      <version>1.2-renjin-6</version>
+      <version>1.2-renjin-8</version>
     </dependency>
   </dependencies>
   <repositories>
